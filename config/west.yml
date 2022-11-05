@@ -1,11 +1,11 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/manna-harbour
+      url-base: https://github.com/CarpeTelam
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: zen
+      revision: corne-ish-zen-v2
       import: app/west.yml
   self:
     path: config
