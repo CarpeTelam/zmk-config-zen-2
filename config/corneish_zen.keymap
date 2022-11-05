@@ -35,7 +35,7 @@
     compatible = "zmk,keymap";
 
     default_layer {
-    label = "QWERTY";
+    label = "HUEY =)";
       bindings = <
         &sl 4            &kp Q           &kp W           &kp E           &kp R           &kp T               &kp Y           &kp U           &kp I           &kp O           &kp P           &sl 1
         &sl 5            &hm LSHFT A     &hm LCTRL S     &hm LALT D      &hm LGUI F      &kp G               &kp H           &hm RGUI J      &hm RALT K      &hm RCTRL L     &hm RSHFT SEMI  &sl 2
