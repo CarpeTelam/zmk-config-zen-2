@@ -38,7 +38,7 @@
     label = "HUEY =)";
       bindings = <
         &sl 4            &kp Q           &kp W           &kp E           &kp R           &kp T               &kp Y           &kp U           &kp I           &kp O           &kp P           &sl 1
-        &sl 5            &hm LSHFT A     &hm LCTRL S     &hm LALT D      &hm LGUI F      &kp G               &kp H           &hm RGUI J      &hm RALT K      &hm RCTRL L     &hm RSHFT SEMI  &sl 2
+        &sl 5            &hm LSHFT A     &hm LCTRL S     &hm LALT D      &hm LGUI F      &hm CAPS G          &hm CAPS H      &hm RGUI J      &hm RALT K      &hm RCTRL L     &hm RSHFT SEMI  &sl 2
         &sl 6            &kp Z           &kp X           &kp C           &kp V           &kp B               &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH        &sl 3
                                                          &lt MSE ESC     &lt NUM BSPC    &lt NAV DEL         &lt MED TAB     &lt FUN SPACE   &lt CFG RET
       >;
@@ -48,7 +48,7 @@
       label = "MOUSE";
       bindings = <
         &trans           &none           &none           &none           &none           &none               &none           &none           &none           &none           &none           &trans
-        &trans           &kp LSHFT       &kp LCTRL       &kp LALT        &kp LGUI        &none               &none           &none           &none           &none           &none           &trans
+        &trans           &kp LSHFT       &kp LCTRL       &kp LALT        &kp LGUI        &kp CAPS            &none           &none           &none           &none           &none           &trans
         &trans           &none           &none           &none           &none           &none               &none           &none           &none           &none           &none           &trans
                                                          &none           &none           &none               &none           &none           &none
       >;
@@ -58,7 +58,7 @@
       label = "NUMBER";
       bindings = <
         &trans           &none           &none           &none           &none           &none               &kp EQUAL       &kp N7          &kp N8          &kp N9          &kp N0          &trans
-        &trans           &kp LSHFT       &kp LCTRL       &kp LALT        &kp LGUI        &none               &kp MINUS       &kp N4          &kp N5          &kp N6          &kp APOS        &trans
+        &trans           &kp LSHFT       &kp LCTRL       &kp LALT        &kp LGUI        &kp CAPS            &kp MINUS       &kp N4          &kp N5          &kp N6          &kp APOS        &trans
         &trans           &none           &none           &none           &none           &none               &kp GRAVE       &kp N1          &kp N2          &kp N3          &kp BSLH        &trans
                                                          &none           &none           &none               &none           &kp LBKT        &kp RBKT
       >;
@@ -68,7 +68,7 @@
       label = "NAV";
       bindings = <
         &trans           &none           &none           &none           &none           &none               &none           &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK &none           &trans
-        &trans           &kp LSHFT       &kp LCTRL       &kp LALT        &kp LGUI        &none               &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT       &kp INS         &trans
+        &trans           &kp LSHFT       &kp LCTRL       &kp LALT        &kp LGUI        &kp CAPS            &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT       &kp INS         &trans
         &trans           &none           &none           &none           &none           &none               &kp HOME        &kp PG_DN       &kp PG_UP       &kp END         &kp DEL         &trans
                                                          &none           &none           &none               &kp TAB         &kp SPACE       &kp RET
       >;
@@ -78,7 +78,7 @@
       label = "MEDIA";
       bindings = <
         &trans           &none           &none           &none           &none           &none               &none           &none           &none           &none           &none           &trans
-        &trans           &none           &none           &none           &none           &none               &none           &kp RGUI        &kp RALT        &kp RCTRL       &kp RSHFT       &trans
+        &trans           &none           &none           &none           &none           &none               &kp CAPS        &kp RGUI        &kp RALT        &kp RCTRL       &kp RSHFT       &trans
         &trans           &none           &none           &none           &none           &none               &none           &none           &none           &none           &none           &trans
                                                          &none           &none           &none               &none           &none           &none
       >;
@@ -88,7 +88,7 @@
       label = "FUNC";
       bindings = <
         &trans           &kp F9          &kp F10         &kp F11         &kp F12         &none               &none           &none           &none           &none           &none           &trans
-        &trans           &kp F5          &kp F6          &kp F7          &kp F8          &none               &none           &kp RGUI        &kp RALT        &kp RCTRL       &kp RSHFT       &trans
+        &trans           &kp F5          &kp F6          &kp F7          &kp F8          &none               &kp CAPS           &kp RGUI        &kp RALT        &kp RCTRL       &kp RSHFT       &trans
         &trans           &kp F1          &kp F2          &kp F3          &kp F4          &none               &none           &none           &none           &none           &none           &trans
                                                          &none           &none           &none               &none           &none           &none
       >;
@@ -98,7 +98,7 @@
       label = "CONFIG";
       bindings = <
         &trans           &none           &none           &none           &none           &none               &bt BT_CLR      &none           &none           &none           &none           &trans
-        &trans           &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4        &none           &kp RGUI        &kp RALT        &kp RCTRL       &kp RSHFT       &trans
+        &trans           &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4        &kp CAPS           &kp RGUI        &kp RALT        &kp RCTRL       &kp RSHFT       &trans
         &trans           &none           &none           &none           &none           &none               &none           &none           &none           &none           &none           &trans
                                                          &none           &bt BT_PRV      &bt BT_NXT          &none           &none           &none
       >;
